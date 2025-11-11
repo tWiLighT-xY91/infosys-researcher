@@ -1,2 +1,7 @@
-langchain
+langchain==0.1.20
 langchain-community
+langgraph
+tavily
+dotenv
+requests
+rich
