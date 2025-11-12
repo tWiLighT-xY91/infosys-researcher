@@ -5,3 +5,5 @@ tavily
 dotenv
 requests
 rich
+google-generativeai
+langchain-google-genai
