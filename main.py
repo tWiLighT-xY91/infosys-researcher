@@ -34,7 +34,7 @@ def research_agent(question):
     2. Performs Tavily web search.
     3. Synthesizes a Gemini report.
     """
-    # Step 1: Clarify intent
+    # Step 1: Clarify topic
     clarify_prompt = [
         SystemMessage(content="You are a helpful research assistant."),
         HumanMessage(content=f"The user asked: '{question}'. If the question lacks context, respond with a short clarification question.")
