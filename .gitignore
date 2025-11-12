@@ -210,3 +210,55 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+venv/
+.env/
+*.log
+.DS_Store
+
+# --- Virtual Environments ---
+.venv/
+env/
+venv/
+trex/
+*.sqlite3
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.swp
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+
+# --- Cache / Temp ---
+*.cache
+.cache/
+__cache__/
+*.tmp
+
+# --- System files ---
+Thumbs.db
+ehthumbs.db
+
+# --- OS Specific ---
+*.bak
+
+# --- Node / Frontend (if you ever expand) ---
+node_modules/
+dist/
+build/
+
+# --- Secrets / Keys ---
+*.pem
+*.key
+*.crt
+
