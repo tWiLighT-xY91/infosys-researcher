@@ -15,7 +15,7 @@ if not TAVILY_API_KEY or not GEMINI_API_KEY:
 
 
 tavily = TavilyClient(api_key=TAVILY_API_KEY)
-gemini = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GEMINI_API_KEY)
+gemini = ChatGoogleGenerativeAI(model="gemini-1.5-pro", google_api_key=GEMINI_API_KEY)
 
 
 def tavily_search(query, max_results=5):
